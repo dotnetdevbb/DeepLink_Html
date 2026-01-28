@@ -9,17 +9,33 @@
 <body>
     <h1>Click Your Link</h1>
 <ul>
-        <li><a href="https://www.totalfitness.co.uk/totalfitness">App Link</a></li>
-        <li><a href="https://links.totalfitnessuk.com/totalfitness/my-membership">My Membership Screen </a></li>
-        <li><a href="https://links.totalfitnessuk.com/totalfitness/about">App About Screen </a></li>
+        <li>
+             <a href="intent://openapp#Intent;
+                scheme=totalfitness;
+                package=uk.co.totalfitness.memberportal;
+                S.browser_fallback_url=https://play.google.com/store/apps/details?id=uk.co.totalfitness.memberportal;
+                end">
+                Open App Only
+            </a>
+         
+        </li>
+        <li>
+            <a href="intent://openapp/my-membership#Intent;scheme=totalfitness;package=uk.co.totalfitness.memberportal;S.browser_fallback_url=https://play.google.com/store/apps/details?id=uk.co.totalfitness.memberportal;end">
+            My Membership Screen 
+            </a>
+        </li>
+        <li>
+            <a href="intent://openapp/about#Intent;scheme=totalfitness;package=uk.co.totalfitness.memberportal;S.browser_fallback_url=https://play.google.com/store/apps/details?id=uk.co.totalfitness.memberportal;end">
+            Open App 
+            </a>
+            
     
         <li><a href="https://www.totalfitness.co.uk/" >Web Link</a></li>
-     <a href="intent://openapp/my-membership#Intent;scheme=totalfitness;package=uk.co.totalfitness.memberportal;S.browser_fallback_url=https://play.google.com/store/apps/details?id=uk.co.totalfitness.memberportal;end">
-        Open App 
-    </a>
+      
     </ul>
 </body>
 </html>
+
 
 
 
